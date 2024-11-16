@@ -1,0 +1,35 @@
+.about-sec {
+    margin-top: 10px;
+    background-color: #f9f9f9; 
+    padding: 50px 20px; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about-sec h1 {
+    font-size: 2.5rem; 
+    color:#0b70ce;
+    margin-bottom: 20px; /* Adds spacing below the heading */
+    text-transform: uppercase; /* Optional: Makes the heading uppercase */
+  }
+  
+  .about-sec li {
+    font-size: 1.2rem; 
+    color: #333; 
+    line-height: 1.6;
+    margin: 10px 0; 
+    list-style-type: none; 
+  }
+  
+  .about-sec li::before {
+    content: ">"; 
+    color: #a11212;
+    font-weight: bold;
+    margin-right: 10px; 
+  }
+  
+  

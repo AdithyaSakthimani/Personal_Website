@@ -1,0 +1,57 @@
+
+    .linkdin-Light{
+        text-decoration: none;
+        color: black;
+        padding-right: 10px;
+        padding-top: 2px;
+        padding-left: 10px;
+    }
+    .instagram-Light{
+        text-decoration: none;
+        color: black;
+        padding-right: 10px;
+        padding-top: 2px;
+        padding-left:4px;
+    }
+    .github-Light{
+        text-decoration: none;
+        color: black;
+        padding-right: 10px;
+        padding-top: 2px;
+    }
+    .leetcode-Light{
+        text-decoration: none;
+        color: black;
+        padding-right: 10px;
+        padding-top: 5px;
+    }
+    .gmail-Light{
+        text-decoration: none;
+        color: black;
+        padding-right: 20px;
+        padding-top: 2px;
+    }
+    .insta-logo{
+        width: 30px;
+        height: 30px;
+    }
+    .google-logo{
+        width: 30px;
+        height: 30px;
+    }
+    .github-logo{
+        width: 30px;
+        height: 30px;
+    }
+    .linkdin-logo{
+        width: 30px;
+        height: 30px;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+    }
+    .github-logo-dark{
+        width: 40px;
+        height: 30px;
+    }
