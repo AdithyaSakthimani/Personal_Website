@@ -18,8 +18,8 @@ function App() {
   };
 
   // Contact and email details
-  const contactNumber = '+1-234-567-890';
-  const emailAddress = 'your.email@example.com';
+  const contactNumber = '+919866100630';
+  const emailAddress = 'adithyasakthimani@gmail.com';
 
   // Copy to clipboard function
   const copyToClipboard = (text, message) => {
