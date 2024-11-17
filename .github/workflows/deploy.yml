@@ -27,6 +27,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages  # This is the branch that GitHub Pages will use to serve your site
+          branch: main  # This is the branch that GitHub Pages will use to serve your site
           folder: build     # Folder containing the production build (react-scripts build creates the 'build' folder)
           token: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
