@@ -3,30 +3,33 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # or 'master', if you're using that
+      - main  # Or master, depending on your default branch
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
+    - name: Change directory to website-app
+      run: cd website-app  # This will move to the correct directory
 
-      - name: Install dependencies
-        run: npm install
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'  # Adjust to the correct version of Node.js you're using
 
-      - name: Build the app
-        run: npm run build
+    - name: Install dependencies
+      run: npm install
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: main  # This is the branch that GitHub Pages will use to serve your site
-          folder: build     # Folder containing the production build (react-scripts build creates the 'build' folder)
-          token: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
+    - name: Build the app
+      run: npm run build
+
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: build  # This is where the build files are located
+        token: ${{ secrets.GITHUB_TOKEN }}
