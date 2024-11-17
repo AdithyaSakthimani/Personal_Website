@@ -53,6 +53,11 @@
   .my-projects .irigation {
     background-color: black;
   }
+  .my-projects .ai-skin:hover ,  .my-projects .sudoku-web:hover,
+  .my-projects .nano:hover,
+  .my-projects .irigation:hover {
+    transform: scale(1.02); 
+  }
   
   .project-button {
     position: absolute;

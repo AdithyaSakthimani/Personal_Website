@@ -7,6 +7,7 @@ import bar from './components/images/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import SocialMedia from './components/SocialMedia';
+import Gallery from './components/Gallery';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ function App() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Contact and email details
+
   const contactNumber = '+919866100630';
   const emailAddress = 'adithyasakthimani@gmail.com';
 
@@ -40,6 +41,7 @@ function App() {
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
+        <a href="#hobbies">My Hobbies</a>
         <a href="#social-media">Social Media</a>
       </div>
     );
@@ -79,10 +81,12 @@ function App() {
       <div id="projects">
         <Projects />
       </div>
+      <div id="hobbies" className="hobbies">
+        <Gallery/>
+      </div>
       <div id="social-media" className="social-media">
         <SocialMedia />
       </div>
-
       {/* Toast Notification */}
       {isToastVisible && (
         <div className="toast">

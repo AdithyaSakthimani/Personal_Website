@@ -8,6 +8,7 @@ html, body {
   height: 100%;  /* Ensure full height */
   overflow-x: hidden;  /* Disable horizontal scrolling */
   scroll-behavior: smooth;
+  background: radial-gradient(circle, #FFFFFF 40%, #FADADD 100%);
 }
 
 .App {
@@ -36,7 +37,10 @@ html, body {
 }
 
 .right-items {
-  margin-right: 20px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-icon, .email-icon, .bar-icon {
@@ -95,4 +99,9 @@ html, body {
   font-size: 1rem;
   z-index: 2000;
   transition: opacity 0.5s ease-out;
+}
+.hobbies{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 50px;
 }

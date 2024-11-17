@@ -6,11 +6,15 @@
     border-radius: 20px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
 }
+.myimage:hover{
+    transform: scale(1.02);
+}
 .text-img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 20px;
 }
 .main-text{
     font-size: 1.36rem;
@@ -27,7 +31,7 @@
     }
 }
 .main-hed{
-    color: darkslategray
+    color: #0b70ce
 }
 @media all and (max-width:400px) {
     .type-txt{
