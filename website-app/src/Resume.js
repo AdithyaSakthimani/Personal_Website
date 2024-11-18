@@ -24,6 +24,11 @@ function Resume() {
                 ></iframe>
             </div>
         </div>
+        {isToastVisible && (
+        <div className="toast">
+          {toastMessage}
+        </div>
+      )}
         </>
     );
 }

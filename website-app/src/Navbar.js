@@ -44,11 +44,11 @@ function Navbar() {
             onClick={() => copyToClipboard(emailAddress, 'Email address copied!')}
           >
             <img src={email} className="email-icon" alt="email icon" />
-            <div className="resume">
+        </div>
+        <div className="resume">
             <Link to="/Resume">  
                 <img src={resumeImg} className="resume-icon" alt="Resume Icon" />
             </Link>
-        </div>
           </div>
         </div>
         <div className="flare">

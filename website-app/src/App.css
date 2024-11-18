@@ -168,6 +168,9 @@ html::-webkit-scrollbar {
   display: flex;
   align-items: center;
 }
+.contact{
+  margin-right: 10px;
+}
 .resume{
   margin-top: 3px;
   margin-right: 2px;
@@ -225,4 +228,8 @@ html::-webkit-scrollbar {
   .nme{
     font-size: 1.3rem;
   }
+}
+.resume{
+  margin-right: 5px;
+  padding: 0;
 }
