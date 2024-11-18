@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.e97b716f.css",
-    "main.js": "/static/js/main.d819909a.js",
-    "static/js/453.d4376a95.chunk.js": "/static/js/453.d4376a95.chunk.js",
-    "static/media/GettyImages-526245433.jpg": "/static/media/GettyImages-526245433.5a3a23aea0f05a52dc08.jpg",
-    "static/media/WhatsApp Image 2024-11-16 at 17.56.35.jpeg": "/static/media/WhatsApp Image 2024-11-16 at 17.56.35.b88c16c177fe7837f032.jpeg",
-    "static/media/My Resume_final_final.pdf": "/static/media/My Resume_final_final.c982e1246575cae659fb.pdf",
-    "static/media/1000_F_298315933_FdK3b8wCs7EhYWlJqieSvmSgTOr9MSfR(2).png": "/static/media/1000_F_298315933_FdK3b8wCs7EhYWlJqieSvmSgTOr9MSfR(2).2ceee0ce3d3d35050283.png",
-    "static/media/dgt-electronic-plastic-chess-pieces.jpg": "/static/media/dgt-electronic-plastic-chess-pieces.d95c3550ce481530c1bb.jpg",
-    "static/media/badminton_smash_tips_tricks-1024x664.jpg": "/static/media/badminton_smash_tips_tricks-1024x664.ec3c668d6beffa80bb89.jpg",
-    "static/media/GitHub-Mark-ea2971cee799 (2).png": "/static/media/GitHub-Mark-ea2971cee799 (2).2ac900935c6c63b8bc4a.png",
-    "static/media/sm_5b321c9756fc6.png": "/static/media/sm_5b321c9756fc6.2b44dc72fe6464cdeca9.png",
-    "static/media/152531278-5e01909d-0c2e-412a-8acc-4a06863c244d.png": "/static/media/152531278-5e01909d-0c2e-412a-8acc-4a06863c244d.73b5137e6712388cbe4f.png",
-    "static/media/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector-Dark.jpg": "/static/media/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector-Dark.79fa45ad01f686ef7c7c.jpg",
-    "static/media/Google__G__logo.svg.png": "/static/media/Google__G__logo.svg.a62f3a81a619ff596786.png",
-    "index.html": "/index.html",
-    "main.e97b716f.css.map": "/static/css/main.e97b716f.css.map",
-    "main.d819909a.js.map": "/static/js/main.d819909a.js.map",
-    "453.d4376a95.chunk.js.map": "/static/js/453.d4376a95.chunk.js.map"
+    "main.css": "/Personal_Website/static/css/main.e97b716f.css",
+    "main.js": "/Personal_Website/static/js/main.5840d621.js",
+    "static/js/453.d4376a95.chunk.js": "/Personal_Website/static/js/453.d4376a95.chunk.js",
+    "static/media/GettyImages-526245433.jpg": "/Personal_Website/static/media/GettyImages-526245433.5a3a23aea0f05a52dc08.jpg",
+    "static/media/WhatsApp Image 2024-11-16 at 17.56.35.jpeg": "/Personal_Website/static/media/WhatsApp Image 2024-11-16 at 17.56.35.b88c16c177fe7837f032.jpeg",
+    "static/media/My Resume_final_final.pdf": "/Personal_Website/static/media/My Resume_final_final.c982e1246575cae659fb.pdf",
+    "static/media/1000_F_298315933_FdK3b8wCs7EhYWlJqieSvmSgTOr9MSfR(2).png": "/Personal_Website/static/media/1000_F_298315933_FdK3b8wCs7EhYWlJqieSvmSgTOr9MSfR(2).2ceee0ce3d3d35050283.png",
+    "static/media/dgt-electronic-plastic-chess-pieces.jpg": "/Personal_Website/static/media/dgt-electronic-plastic-chess-pieces.d95c3550ce481530c1bb.jpg",
+    "static/media/badminton_smash_tips_tricks-1024x664.jpg": "/Personal_Website/static/media/badminton_smash_tips_tricks-1024x664.ec3c668d6beffa80bb89.jpg",
+    "static/media/GitHub-Mark-ea2971cee799 (2).png": "/Personal_Website/static/media/GitHub-Mark-ea2971cee799 (2).2ac900935c6c63b8bc4a.png",
+    "static/media/sm_5b321c9756fc6.png": "/Personal_Website/static/media/sm_5b321c9756fc6.2b44dc72fe6464cdeca9.png",
+    "static/media/152531278-5e01909d-0c2e-412a-8acc-4a06863c244d.png": "/Personal_Website/static/media/152531278-5e01909d-0c2e-412a-8acc-4a06863c244d.73b5137e6712388cbe4f.png",
+    "static/media/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector-Dark.jpg": "/Personal_Website/static/media/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector-Dark.79fa45ad01f686ef7c7c.jpg",
+    "static/media/Google__G__logo.svg.png": "/Personal_Website/static/media/Google__G__logo.svg.a62f3a81a619ff596786.png",
+    "index.html": "/Personal_Website/index.html",
+    "main.e97b716f.css.map": "/Personal_Website/static/css/main.e97b716f.css.map",
+    "main.5840d621.js.map": "/Personal_Website/static/js/main.5840d621.js.map",
+    "453.d4376a95.chunk.js.map": "/Personal_Website/static/js/453.d4376a95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e97b716f.css",
-    "static/js/main.d819909a.js"
+    "static/js/main.5840d621.js"
   ]
 }
