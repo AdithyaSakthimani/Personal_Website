@@ -8,12 +8,13 @@ import Gallery from './components/Gallery';
 import Navbar from './Navbar';
 import NoteContext from './components/NoteContext';
 import RenderMenu from './components/RenderMenu';
+import { Link } from 'react-router-dom';
 function App() {
   const {isMenuOpen,setIsMenuOpen,toastMessage,setToastMessage,isToastVisible,setIsToastVisible} = useContext(NoteContext);
   return (
     <div className="App">
       <Navbar/>
-      {isMenuOpen && RenderMenu()}
+      {isMenuOpen && <RenderMenu/>}
 
       {/* Sections */}
       <div id="home">

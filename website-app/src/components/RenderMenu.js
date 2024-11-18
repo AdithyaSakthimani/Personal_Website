@@ -1,15 +1,22 @@
-import React from 'react'
-    const RenderMenu = () => {
-        return (
-          <div className="dropdown-menu">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#hobbies">My Hobbies</a>
-            <a href="#social-media">Social Media</a>
-          </div>
-        );
-      };
-    
+import React from 'react';
 
-export default RenderMenu
+const RenderMenu = () => {
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <div className="dropdown-menu">
+      <button onClick={() => scrollToSection('home')}>Home</button>
+      <button onClick={() => scrollToSection('about')}>About</button>
+      <button onClick={() => scrollToSection('projects')}>Projects</button>
+      <button onClick={() => scrollToSection('hobbies')}>My Hobbies</button>
+      <button onClick={() => scrollToSection('social-media')}>Social Media</button>
+    </div>
+  );
+};
+
+export default RenderMenu;

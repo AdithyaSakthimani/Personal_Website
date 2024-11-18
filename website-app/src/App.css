@@ -17,11 +17,31 @@ html, body {
 html::-webkit-scrollbar {
   display: none;
 }
-
-
 .App {
   width: 100%;
   height: 100%;
+}
+.dropdown-menu button {
+  display: block;            /* Make each button occupy a separate line */
+  width: 100%;               /* Full width of the dropdown menu */
+  padding: 10px 15px;        /* Add padding for better spacing */
+  background-color: #f8f9fa; /* Light background color */
+  color: #333;               /* Dark text color */
+  border: none;              /* Remove borders */
+  text-align: left;          /* Align text to the left */
+  cursor: pointer;           /* Change cursor to pointer */
+  font-size: 16px;           /* Make text slightly larger */
+  transition: background-color 0.3s ease; /* Add hover transition effect */
+}
+
+.dropdown-menu button:hover {
+  background-color: #e9ecef; /* Slightly darker background on hover */
+  color: #000;              /* Make text fully black on hover */
+}
+
+.dropdown-menu button:focus {
+  outline: none;            /* Remove focus outline */
+  background-color: #d1d7db; /* Change background when focused */
 }
 .resume-area {
   display: flex;
