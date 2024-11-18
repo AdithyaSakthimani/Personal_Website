@@ -3,11 +3,27 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  HashRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
+import Resume from './Resume';
+import NoteState from './components/NoteState';
 
+// Set up routing with HashRouter
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <NoteState>
+      <Router>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/Resume" element={<Resume />} />
+        </Routes>
+      </Router>
+    </NoteState>
   </React.StrictMode>
 );
 
